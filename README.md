@@ -57,23 +57,60 @@ Event Notification
 
 ## Project Structure
 
+## Project Structure
+
 ```text
-src/
+22MIS0117/
 │
-├── app/
-│   ├── page.tsx
-│   ├── priority/
+├── logging_middleware/
 │
-├── components/
-│   ├── NotificationCard.tsx
+├── notification_app_backend/
 │
-├── services/
-│   ├── api.ts
-│
-├── utils/
-│   ├── priority.ts
-│
-└── styles/
+├── notification_app_frontend/
+│   │
+│   ├── node_modules/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   │
+│   │   ├── components/
+│   │   │   └── NotificationCard.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── AllNotifications.js
+│   │   │   └── PriorityInbox.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── notificationService.js
+│   │   │
+│   │   ├── utils/
+│   │   │   └── logger.js
+│   │   │
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── App.test.tsx
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── index.tsx
+│   │   ├── logo.svg
+│   │   ├── react-app-env.d.ts
+│   │   ├── reportWebVitals.ts
+│   │   ├── setupTests.ts
+│   │   └── tsconfig.json
+│   │
+│   ├── screenshots/
+│   │   ├── Screenshot1.png
+│   │   ├── Screenshot2.png
+│   │   ├── Screenshot3.png
+│   │   ├── Screenshot4.png
+│   │   └── Screenshot5.png
+│   │
+│   ├── .gitignore
+│   ├── NotificationCard.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── notification_system_design.md
 ```
 
 ---
