@@ -212,8 +212,9 @@ http://localhost:3000
 
 ## Author
 
-Jothi R 
-22MIS0117
+Name: Jothi R 
+
+Reg No: 22MIS0117
 
 ---
 
